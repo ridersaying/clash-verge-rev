@@ -1083,7 +1083,7 @@ checksum = "c8d4a3bb8b1e0c1050499d1815f5ab16d04f0959b233085fb31653fbfc9d98f9"
 
 [[package]]
 name = "clash-verge"
-version = "2.5.8"
+version = "2.5.9"
 dependencies = [
  "aes-gcm",
  "anyhow",
@@ -10187,8 +10187,3 @@ dependencies = [
  "syn 3.0.5",
  "winnow 1.0.4",
 ]
-
-[[patch.unused]]
-name = "tray-icon"
-version = "0.24.1"
-source = "git+https://github.com/Tunglies/tray-icon.git?branch=fix%2Fmacos-27-click-reentrancy#5750c67d02d32f2af100e120ad665959d4268cef"
